@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0062be;
+    transition: 0.5s;
+}
+
+header {
+    background-color: #0a6fcd;
+    width: 100%;
+    padding: 15px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+header .logo {
+    position: relative;
+    max-height: 90px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+
+}
+
+header ul li {
+    list-style: none;
+    padding: 12px 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .text {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .text h2 {
+    color: white;
+    font-size: 5em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.content .text p {
+    color: white;
+    font-size: 1em;
+}
+
+.content .text a {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+
+.content .pepsiCan {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+    width: 600px;
+}
+
+.content .pepsiCan img {
+    max-width: 250px;
+}
+
+.otherDrink {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+.otherDrink li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+    transition: 0.5s;
+}
+
+.otherDrink li img {
+    max-width: 50px;
+    position: relative;
+    bottom: -130px;
+}
+
+.otherDrink li:hover {
+    transform: translateY(-25px);
+}
+
+/* social icons */
+
+.social {
+    display: flex;
+}
+
+.social ul li {
+    list-style: none;
+}
